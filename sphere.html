@@ -7,26 +7,29 @@
 </head>
 <body>
     <style>
-        .scene {
-            perspective: 1000px;
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
         }
 
         .container {
-            margin-top: 5vh;
-            margin-left: auto;
-            margin-right: auto;
-            position: relative;
+            margin: auto;
+            height: 100vh;
             width: 200px;
             height: 200px;
             transform-style: preserve-3d;
             animation-name: animateSphere; 
-            animation-duration: 30s;
+            animation-duration: 20s;
             animation-iteration-count: infinite;
             animation-timing-function: linear;
         }
 
         .border {
-            border: 1px solid black;
+            border: 2px solid black;
         }
 
         .circle {
@@ -60,14 +63,15 @@
 
         .light {
             margin: auto;
+            height: 100vh;
             border-radius: 50%;
             width: 200px;
             height: 200px;
-            box-shadow: 10px 1px 30px white;
+            background-color: black;
         } 
 
         .clip {
-            clip-path: circle(48%); 
+            clip-path: circle(49%); 
         }
 
         @-webkit-keyframes animateSphere {
@@ -77,31 +81,29 @@
         }
     </style>
 
-    <div class="scene">
-        <div class="light">
-            <div class="clip">
-                <div class="container">
-                    <!-- X Axis -->
-                    <div class="circle border"></div>
-                    <div class="circle border"></div>
-                    <div class="circle border"></div>
-                    <div class="circle border"></div>
-                    <div class="circle border"></div>
+    <div class="light">
+        <div class="clip">
+            <div class="container">
+                <!-- X Axis -->
+                <div class="circle border"></div>
+                <div class="circle border"></div>
+                <div class="circle border"></div>
+                <div class="circle border"></div>
+                <div class="circle border"></div>
 
-                    <!-- Y Axis -->
-                    <div class="circle border"></div>
-                    <div class="circle border"></div>
-                    <div class="circle border"></div>
-                    <div class="circle border"></div>
-                    <div class="circle border"></div>
-                    
-                    <!-- Z Axis -->
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                </div>
+                <!-- Y Axis -->
+                <div class="circle border"></div>
+                <div class="circle border"></div>
+                <div class="circle border"></div>
+                <div class="circle border"></div>
+                <div class="circle border"></div>
+                
+                <!-- Z Axis -->
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
             </div>
         </div>
     </div>
