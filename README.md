@@ -1,12 +1,13 @@
 # Static pages for some shapes
+[Index Page](https://ayberkatalay0.github.io/shapes/ "Index")
 
-**Index (2D Shapes)**
+**2D Shapes**
 * [Triangle](https://ayberkatalay0.github.io/shapes/üçgen "Üçgen")
 * [Square](https://ayberkatalay0.github.io/shapes/kare "Kare")
 * [Rectangle](https://ayberkatalay0.github.io/shapes/dikdörtgen "Dikdörtgen")
 * [Circle](https://ayberkatalay0.github.io/shapes/daire "Daire")
   
-**Index (3D Shapes)**
+**3D Shapes**
 * [Cone](https://ayberkatalay0.github.io/shapes/koni "Koni")
 * [Cube](https://ayberkatalay0.github.io/shapes/küp "Küp")
 * [Cylinder](https://ayberkatalay0.github.io/shapes/silindir "Silindir")
