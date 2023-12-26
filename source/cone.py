@@ -2,20 +2,29 @@ import plotly.offline
 import plotly.graph_objs as go
 
 fig = go.Figure(
-    data=go.Cone(
-        x=[0],
-        y=[0],
-        z=[0],
-        u=[0],
-        v=[0],
-        w=[1],
-        sizeref=1,
-        hoverinfo="skip",
-        colorscale=[[0, "gold"], [0.5, "mediumturquoise"], [1, "magenta"]],
-        showscale=False,
-        lighting_ambient=0.7,
-        lighting=dict(specular=1)
-    ),
+    data=[
+        go.Cone(
+            x=[0],
+            y=[0],
+            z=[0],
+            u=[0],
+            v=[0],
+            w=[1],
+            sizeref=1,
+            hoverinfo="skip",
+            colorscale=[[0, "gold"], [0.5, "mediumturquoise"], [1, "magenta"]],
+            showscale=False,
+            lighting_ambient=0.7,
+            lighting=dict(specular=1)
+        ),
+        go.Scatter3d(
+            x=[0],
+            y=[0],
+            z=[1],
+            hoverinfo="skip",
+            opacity=0
+        )
+    ],
     layout=go.Layout(xaxis={"showgrid": False}, yaxis={"showgrid": False}),
 )
 
