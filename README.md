@@ -1,6 +1,5 @@
-# Static pages for some shapes
-[Index Page](https://ayberkatalay0.github.io/shapes/ "Index")
----
+# Static pages for some shapes 
+<sup>https://ayberkatalay0.github.io/shapes/</sup>
 
 **2D Shapes**
 * [Triangle](https://ayberkatalay0.github.io/shapes/üçgen "Üçgen")
